@@ -16,7 +16,7 @@
     name: "{{ guacamole_db_user }}"
     password: "{{ guacamole_db_password }}"
     priv: '{{ guacamole_db_name }}.*:SELECT,INSERT,UPDATE,DELETE'
-    host: localhost
+    host: "{{ guacamole_db_client }}"
     state: present
   become:  true
 - name: Importing guacamole schema

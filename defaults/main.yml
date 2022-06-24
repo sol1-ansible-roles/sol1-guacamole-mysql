@@ -5,6 +5,7 @@ guacamole_db_port: 3306
 guacamole_db_user: guacamole
 guacamole_db_password: 'foofoofoo'
 guacamole_db_name: guacamole_db
+guacamole_db_client: localhost
 
 mysql_java_client_version: 5.1.44
 
