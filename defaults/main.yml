@@ -1,0 +1,13 @@
+---
+guacamole_version: 1.4.0
+guacamole_db_host: 127.0.0.1
+guacamole_db_port: 3306
+guacamole_db_user: guacamole
+guacamole_db_password: 'foofoofoo'
+guacamole_db_name: guacamole_db
+
+mysql_java_client_version: 5.1.44
+
+guacamole_apt_install:
+  - mariadb-server
+  - python3-mysqldb
