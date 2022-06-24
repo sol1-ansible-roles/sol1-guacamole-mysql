@@ -11,9 +11,9 @@
     state: present
   become: true
   when: database_status.stdout == ""
-- name: Creating mysql user {{ guacamole_db_user }}
+- name: Creating mysql user {{ guacamole_db_username }}
   mysql_user:
-    name: "{{ guacamole_db_user }}"
+    name: "{{ guacamole_db_username }}"
     password: "{{ guacamole_db_password }}"
     priv: '{{ guacamole_db_name }}.*:SELECT,INSERT,UPDATE,DELETE'
     host: "{{ guacamole_db_client }}"

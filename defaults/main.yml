@@ -2,7 +2,7 @@
 guacamole_version: 1.4.0
 guacamole_db_host: 127.0.0.1
 guacamole_db_port: 3306
-guacamole_db_user: guacamole
+guacamole_db_username: guacamole
 guacamole_db_password: 'foofoofoo'
 guacamole_db_name: guacamole_db
 guacamole_db_client: localhost
